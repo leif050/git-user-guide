@@ -57,3 +57,5 @@ git stash list
 git stash apply
 git stash drop
 git stash pop
+
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
