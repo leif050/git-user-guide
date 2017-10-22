@@ -45,3 +45,5 @@ create branch
 删除分支：git branch -d <name>
 
 用git log --graph命令可以看到分支合并图
+
+git merge --no-ff -m "merge with no-ff" dev (--no-ff参数，表示禁用Fast forward)
